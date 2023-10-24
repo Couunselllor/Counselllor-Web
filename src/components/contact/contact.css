@@ -1,0 +1,85 @@
+/* Update the location section */
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    text-align: center; /* Center the map */
+  }
+  
+  .location iframe {
+    width: 100%;
+  }
+  
+  /* Update the contact-us section */
+  .contact-us {
+    width: 80%;
+    /* margin-top: ; */
+    margin: auto;
+  }
+  
+  /* Style the contact columns */
+  .contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+  }
+  
+  .contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Add styles for FontAwesome icons */
+  .contact-col div .fa-solid {
+    font-size: 28px;
+    color: #040fa1;
+    margin-right: 20px;
+  }
+  
+  /* Style contact information */
+  .contact-col div h5 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .contact-col div p {
+    margin: 0;
+    color: #777;
+  }
+  
+  /* Style input fields and button */
+  .contact-col input,
+  .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  /* Style the Send Message button */
+  .contact-col button {
+    background-color: #0006b7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-col button:hover {
+    background-color: #000000;
+  }
+  .contact-box {
+    background-color: #bdc7f3; /* Background color for the box */
+    border: 1px solid #ccc; /* Border around the box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 50px; /* Add some padding inside the box */
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
