@@ -122,7 +122,7 @@ const UserDashboard = () => {
               <form onSubmit={handleSubmit}>
                 <div className="mb-3 row45">
                   <label className="small mb-1" htmlFor="inputDateOfBirth">
-                    Date of Birth
+                    Date Of Birth
                   </label>
                   <input
                     className="form-control"
